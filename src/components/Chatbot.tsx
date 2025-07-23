@@ -17,7 +17,7 @@ export const Chatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: 'Hello! I\'m your medical assistant. How can I help you today?',
+      content: 'Hello! I\'m your psychiatric clinic assistant. How can I help you with your mental health concerns today?',
       sender: 'bot',
       timestamp: new Date()
     }
@@ -41,7 +41,7 @@ export const Chatbot = () => {
 
     try {
       // Use Pollinations API for AI response
-      const prompt = `You are a helpful medical clinic assistant. Answer this patient question professionally and helpfully: "${inputMessage}". Keep responses concise and always recommend consulting with healthcare professionals for specific medical advice.`;
+      const prompt = `You are a helpful psychiatric clinic assistant for Dr. Sharma's clinic in Undri, Pune. Answer this patient question professionally and helpfully: "${inputMessage}". Keep responses concise and always recommend consulting with mental health professionals for specific psychiatric advice. Be empathetic and supportive.`;
       
       const response = await fetch(`https://text.pollinations.ai/${encodeURIComponent(prompt)}`);
       const botResponse = await response.text();
@@ -149,7 +149,7 @@ export const Chatbot = () => {
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
               onKeyPress={handleKeyPress}
-              placeholder="Ask about our services..."
+              placeholder="Ask about our mental health services..."
               disabled={isLoading}
               className="flex-1"
             />

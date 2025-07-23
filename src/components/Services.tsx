@@ -14,58 +14,58 @@ import {
 
 const services = [
   {
+    icon: Brain,
+    title: 'Individual Therapy',
+    description: 'One-on-one counseling sessions for depression, anxiety, and other mental health concerns.',
+    features: ['Depression Treatment', 'Anxiety Management', 'Trauma Therapy']
+  },
+  {
     icon: Heart,
-    title: 'Cardiology',
-    description: 'Comprehensive heart care with advanced diagnostic tools and treatment options.',
-    features: ['ECG & Echo', 'Heart Surgery', 'Preventive Care']
+    title: "Couple's Therapy",
+    description: 'Relationship counseling to improve communication and resolve conflicts.',
+    features: ['Relationship Issues', 'Communication Skills', 'Conflict Resolution']
   },
   {
     icon: Eye,
-    title: 'Ophthalmology',
-    description: 'Complete eye care services from routine exams to advanced surgical procedures.',
-    features: ['Eye Exams', 'LASIK Surgery', 'Retinal Care']
-  },
-  {
-    icon: Stethoscope,
-    title: 'General Medicine',
-    description: 'Primary healthcare services for patients of all ages with preventive focus.',
-    features: ['Health Checkups', 'Vaccinations', 'Chronic Care']
-  },
-  {
-    icon: Brain,
-    title: 'Neurology',
-    description: 'Specialized care for neurological conditions with latest treatment methods.',
-    features: ['Brain Imaging', 'Stroke Care', 'Epilepsy Treatment']
-  },
-  {
-    icon: Baby,
-    title: 'Pediatrics',
-    description: 'Dedicated healthcare services for infants, children, and adolescents.',
-    features: ['Well-Child Visits', 'Immunizations', 'Growth Monitoring']
-  },
-  {
-    icon: Shield,
-    title: 'Emergency Care',
-    description: '24/7 emergency medical services with rapid response capabilities.',
-    features: ['Trauma Care', 'Critical Care', 'Ambulance Service']
-  },
-  {
-    icon: Activity,
-    title: 'Diagnostics',
-    description: 'Advanced diagnostic imaging and laboratory services for accurate diagnosis.',
-    features: ['MRI & CT Scans', 'Lab Tests', 'X-Ray Services']
+    title: 'Psychological Assessment',
+    description: 'Comprehensive psychological evaluations and diagnostic assessments.',
+    features: ['Mental Health Evaluation', 'Cognitive Testing', 'Personality Assessment']
   },
   {
     icon: Pill,
-    title: 'Pharmacy',
-    description: 'On-site pharmacy with wide range of medications and prescription services.',
-    features: ['Prescription Filling', 'Medication Counseling', 'Home Delivery']
+    title: 'Medication Management',
+    description: 'Expert psychiatric medication consultation and monitoring.',
+    features: ['Prescription Management', 'Side Effect Monitoring', 'Dosage Adjustment']
+  },
+  {
+    icon: Baby,
+    title: 'Child & Adolescent Psychiatry',
+    description: 'Specialized mental health care for children and teenagers.',
+    features: ['Behavioral Issues', 'ADHD Treatment', 'Developmental Concerns']
+  },
+  {
+    icon: Shield,
+    title: 'Crisis Intervention',
+    description: 'Immediate support and intervention for mental health emergencies.',
+    features: ['Emergency Support', 'Crisis Counseling', 'Safety Planning']
+  },
+  {
+    icon: Activity,
+    title: 'Group Therapy',
+    description: 'Therapeutic group sessions for shared experiences and peer support.',
+    features: ['Support Groups', 'Skill Building', 'Peer Learning']
   },
   {
     icon: UserCheck,
-    title: 'Wellness Programs',
-    description: 'Preventive health programs designed to maintain and improve your well-being.',
-    features: ['Health Screenings', 'Nutrition Counseling', 'Fitness Programs']
+    title: 'Wellness Counseling',
+    description: 'Preventive mental health programs to maintain psychological well-being.',
+    features: ['Stress Management', 'Mindfulness Training', 'Life Coaching']
+  },
+  {
+    icon: Stethoscope,
+    title: 'Psychiatric Consultation',
+    description: 'Professional consultation for complex mental health conditions.',
+    features: ['Diagnostic Clarification', 'Treatment Planning', 'Second Opinions']
   }
 ];
 
@@ -75,11 +75,11 @@ export const Services = () => {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our Medical Services
+            Our Psychiatric Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We offer comprehensive healthcare services with cutting-edge technology 
-            and compassionate care from our experienced medical professionals.
+            We offer comprehensive mental health services with evidence-based treatments 
+            and compassionate care from our experienced psychiatric professional.
           </p>
         </div>
 

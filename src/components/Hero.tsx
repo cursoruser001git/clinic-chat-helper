@@ -25,14 +25,14 @@ export const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                Your Health,{' '}
+                Your Mind,{' '}
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  Our Priority
+                  Our Care
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-[600px]">
-                Experience compassionate, comprehensive healthcare with our team of dedicated medical professionals. 
-                We're committed to providing exceptional care for you and your family.
+                Professional psychiatric care with empathy and understanding. 
+                Dr. Sharma's clinic provides comprehensive mental health services in Undri, Pune.
               </p>
             </div>
             
@@ -64,8 +64,8 @@ export const Hero = () => {
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-2">
                   <Users className="h-6 w-6 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-foreground">25+</div>
-                <div className="text-sm text-muted-foreground">Expert Doctors</div>
+                <div className="text-2xl font-bold text-foreground">1</div>
+                <div className="text-sm text-muted-foreground">Expert Psychiatrist</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-2">
@@ -80,19 +80,19 @@ export const Hero = () => {
           <div className="space-y-6">
             <Card className="p-6 bg-card/50 backdrop-blur-sm border-border/50">
               <CardContent className="p-0">
-                <h3 className="text-xl font-semibold mb-4">Quick Services</h3>
+                <h3 className="text-xl font-semibold mb-4">Mental Health Services</h3>
                 <div className="space-y-3">
                   <div className="flex items-center justify-between p-3 bg-medical-blue-light rounded-lg">
-                    <span className="font-medium">Emergency Care</span>
-                    <span className="text-sm text-primary">24/7 Available</span>
+                    <span className="font-medium">Crisis Support</span>
+                    <span className="text-sm text-primary">Available</span>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-medical-green-light rounded-lg">
                     <span className="font-medium">Online Consultation</span>
                     <span className="text-sm text-accent">Book Now</span>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-medical-blue-light rounded-lg">
-                    <span className="font-medium">Lab Results</span>
-                    <span className="text-sm text-primary">Same Day</span>
+                    <span className="font-medium">Therapy Sessions</span>
+                    <span className="text-sm text-primary">Available</span>
                   </div>
                 </div>
               </CardContent>

@@ -14,7 +14,7 @@ export const Header = () => {
           <div className="w-8 h-8 bg-gradient-to-r from-primary to-accent rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-lg">+</span>
           </div>
-          <span className="text-xl font-bold text-foreground">MedCare Clinic</span>
+          <span className="text-xl font-bold text-foreground">Dr. Sharma's Clinic</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
@@ -48,11 +48,11 @@ export const Header = () => {
           <div className="hidden lg:flex items-center space-x-4 text-sm text-muted-foreground">
             <div className="flex items-center space-x-1">
               <Phone className="h-4 w-4" />
-              <span>(555) 123-4567</span>
+              <span>+91 98765 43210</span>
             </div>
             <div className="flex items-center space-x-1">
               <Clock className="h-4 w-4" />
-              <span>Mon-Fri 8AM-6PM</span>
+              <span>Mon-Sat 10AM-8PM</span>
             </div>
           </div>
           <Button onClick={() => scrollToSection('contact')}>

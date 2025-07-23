@@ -11,11 +11,11 @@ export const About = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold">
-                About MedCare Clinic
+                About Dr. Sharma's Psychiatric Clinic
               </h2>
               <p className="text-xl text-muted-foreground">
-                Providing exceptional healthcare services for over 15 years with a commitment 
-                to innovation, compassion, and excellence in medical care.
+                Providing exceptional mental health services for over 15 years with a commitment 
+                to empathy, understanding, and excellence in psychiatric care.
               </p>
             </div>
 
@@ -23,10 +23,10 @@ export const About = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-accent mt-0.5 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-lg">Patient-Centered Care</h3>
+                  <h3 className="font-semibold text-lg">Patient-Centered Mental Health</h3>
                   <p className="text-muted-foreground">
-                    We put our patients first, providing personalized treatment plans and 
-                    comprehensive care tailored to individual needs.
+                    We put our patients' mental well-being first, providing personalized therapy plans and 
+                    comprehensive psychiatric care tailored to individual mental health needs.
                   </p>
                 </div>
               </div>
@@ -34,10 +34,10 @@ export const About = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-accent mt-0.5 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-lg">Advanced Technology</h3>
+                  <h3 className="font-semibold text-lg">Evidence-Based Treatment</h3>
                   <p className="text-muted-foreground">
-                    State-of-the-art medical equipment and technology ensure accurate 
-                    diagnosis and effective treatment outcomes.
+                    Modern therapeutic approaches and evidence-based treatments ensure accurate 
+                    assessment and effective mental health outcomes.
                   </p>
                 </div>
               </div>
@@ -45,10 +45,10 @@ export const About = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-6 w-6 text-accent mt-0.5 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-lg">Experienced Team</h3>
+                  <h3 className="font-semibold text-lg">Experienced Psychiatrist</h3>
                   <p className="text-muted-foreground">
-                    Our board-certified physicians and healthcare professionals bring 
-                    decades of combined experience to your care.
+                    Dr. Sharma is a board-certified psychiatrist with over 15 years of experience 
+                    in treating various mental health conditions with compassion and expertise.
                   </p>
                 </div>
               </div>
@@ -58,15 +58,15 @@ export const About = () => {
               <Card className="text-center p-6">
                 <CardContent className="p-0">
                   <Users className="h-8 w-8 text-primary mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-foreground">25+</div>
-                  <div className="text-sm text-muted-foreground">Medical Experts</div>
+                  <div className="text-2xl font-bold text-foreground">15+</div>
+                  <div className="text-sm text-muted-foreground">Years Experience</div>
                 </CardContent>
               </Card>
               <Card className="text-center p-6">
                 <CardContent className="p-0">
                   <Award className="h-8 w-8 text-accent mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-foreground">50+</div>
-                  <div className="text-sm text-muted-foreground">Awards Won</div>
+                  <div className="text-2xl font-bold text-foreground">500+</div>
+                  <div className="text-sm text-muted-foreground">Patients Helped</div>
                 </CardContent>
               </Card>
             </div>
@@ -95,20 +95,16 @@ export const About = () => {
                 </div>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span>Monday - Friday</span>
-                    <span className="font-medium">8:00 AM - 6:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday</span>
-                    <span className="font-medium">9:00 AM - 4:00 PM</span>
+                    <span>Monday - Saturday</span>
+                    <span className="font-medium">10:00 AM - 8:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Sunday</span>
-                    <span className="font-medium">Emergency Only</span>
+                    <span className="font-medium">10:00 AM - 12:00 PM</span>
                   </div>
                   <div className="flex justify-between pt-2 border-t">
-                    <span>Emergency</span>
-                    <span className="font-medium text-accent">24/7 Available</span>
+                    <span>Crisis Support</span>
+                    <span className="font-medium text-accent">Available</span>
                   </div>
                 </div>
               </CardContent>
