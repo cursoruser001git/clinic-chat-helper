@@ -1,5 +1,10 @@
 # Clinic Chat Helper
 
+![GitHub stars](https://img.shields.io/github/stars/Sulemanaddu/clinic-chat-helper?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Sulemanaddu/clinic-chat-helper?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Sulemanaddu/clinic-chat-helper)
+![GitHub license](https://img.shields.io/github/license/Sulemanaddu/clinic-chat-helper)
+
 A modern single-page application for clinic chat assistance.
 
 ## How can I edit this code?
