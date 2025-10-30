@@ -60,3 +60,13 @@ This project is built with:
 ## How can I deploy this project?
 
 You can deploy this project using any static hosting service such as Vercel, Netlify, or GitHub Pages.
+
+## Contributors
+
+Thanks to all the amazing contributors who have helped make this project better!
+
+<a href="https://github.com/Sulemanaddu/clinic-chat-helper/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sulemanaddu/clinic-chat-helper" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
